@@ -1,0 +1,42 @@
+{
+  "name": "recorder-js",
+  "description": "A handy helper library for steps reproduction.",
+  "keywords": [
+    "recorder",
+    "javascript"
+  ],
+  "maintainers": [
+    "Alfred See <alfred.see@intellihr.co>"
+  ],
+  "bugs": {
+    "email": "alfred.see@intellihr.co",
+    "url": "https://github.com/intellihr/recorder-js/issues"
+  },
+  "homepage": "https://github.com/intellihr/recorder-js",
+  "version": "1.0.0",
+  "main": "./dist/",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intellihr/recorder-js.git"
+  },
+  "author": "Alfred See <alfred.see@intellihr.co>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "build": "rimraf dist && npm run compile",
+    "lint": "tslint -p tsconfig.json './src/**/*.ts'",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.2"
+  }
+}
