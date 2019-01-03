@@ -3,4 +3,4 @@ services:
   jenkins:
     build:
       context: .
-      image: .docker/Dockerfile
+      dockerfile: .docker/Dockerfile
