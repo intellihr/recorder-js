@@ -13,7 +13,7 @@
     "url": "https://github.com/intellihr/recorder-js/issues"
   },
   "homepage": "https://github.com/intellihr/recorder-js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/",
   "files": [
     "dist"
